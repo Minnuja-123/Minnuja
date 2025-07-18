@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose');
 const blogmodel = require('./Model/blog')
 var cors = require ('cors')
+// requiring db
 require('./db')
 const app = express()
 const port = 3000
